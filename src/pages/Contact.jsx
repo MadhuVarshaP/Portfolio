@@ -11,7 +11,7 @@ function Contact() {
       <p className='text-[35px]'>Feel free to contact me!</p>
       <p className='text-[35px]'>Tell me about your project.</p>
       <p className='text-[15px] p-[25px] font-semibold'>Let's create something together!!</p>
-      <div className='flex flex-col items-start'>
+      <div className='flex flex-col items-start py-[60px] md:py-0'>
         <div className='flex flex-row items-center'>
           <FaEnvelopeOpenText size={20} />
           <a href='madhuvarsha0608@gmail.com' className='p-[10px]'>madhuvarsha0608@gmail.com</a>
