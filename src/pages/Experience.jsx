@@ -21,9 +21,9 @@ import { SiSolidity } from "react-icons/si";
 function Experience() {
   return (
     <div className='pt-[90px] font-primary flex flex-col items-center justify-center'>
-      <div>
         <p className='font-bold text-[40px] pb-[40px]'>Experience</p>
-        <div className='flex flex-col items-start p-[30px] border border-gray-200 rounded-lg shadow-md'>
+      <div className='mb-[60px]'>  
+        <div className='flex flex-col items-start p-[30px] border border-gray-200 rounded-lg shadow-md '>
           <p className='text-[25px]'>Web Developer</p>
           <p className='text-gray-500'>WSPL Solutions</p>
         <div className='flex flex-row space-x-4 '>
@@ -33,7 +33,7 @@ function Experience() {
           </div>
           <div className='flex flex-row items-center p-[10px]'>
             <MdLocationPin size={15}/>
-            <p>Trichengode</p>
+            <p>Tiruchengode</p>
           </div>
         </div>
         </div>

@@ -11,14 +11,14 @@ function Contact() {
       <p className='text-[35px]'>Feel free to contact me!</p>
       <p className='text-[35px]'>Tell me about your project.</p>
       <p className='text-[15px] p-[25px] font-semibold'>Let's create something together!!</p>
-      <div>
+      <div className='flex flex-col items-start'>
         <div className='flex flex-row items-center'>
           <FaEnvelopeOpenText size={20} />
           <a href='madhuvarsha0608@gmail.com' className='p-[10px]'>madhuvarsha0608@gmail.com</a>
         </div>
         <div className='flex flex-row items-center'>
           <ImGithub size={20} />
-          <a href='https://github.com/MADHUthecoder' className='p-[10px]'>@MADHUthecoder</a>
+          <a href='https://github.com/MadhuVarshaP' className='p-[10px]'>@MadhuVarshaP</a>
         </div>
         <div className='flex flex-row items-center'>
           <FaLinkedin size={20} />

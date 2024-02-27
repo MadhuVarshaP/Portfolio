@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 
 function Projects() {
@@ -6,9 +7,9 @@ function Projects() {
     <div className='pt-[90px] font-primary'>
       <p className='font-bold text-[40px]'>My Projects</p>
       <div className='flex flex-col justify-center items-center'>
-      <div className='flex flex-col items-center justify-center p-[10px] my-[20px] w-[350px] border border-gray-200 rounded-lg shadow-md'>
+      <Link to='https://github.com/MadhuVarshaP/Foodapp' className='flex flex-col items-center justify-center p-[10px] my-[20px] w-[350px] border border-gray-200 rounded-lg shadow-md hover:shadow-xl'>
         <p className='text-[30px] font-bold pt-[10px]'>Resto-Cafe</p>
-        <a href='https://github.com/MADHUthecoder/Foodapp' className='pt-[10px]'>Github</a>
+        <a href='https://github.com/MadhuVarshaP/Foodapp' className='pt-[10px]'>Github</a>
         <div className='flex flex-row space-x-3 pt-[10px]'>
           <button className='border border-gray-200 bg-gray-200 rounded-xl px-[10px]'>ReactJS</button> 
           <button className='border border-gray-200 bg-gray-200 rounded-xl px-[10px]'>TailwindCSS</button>
@@ -19,10 +20,10 @@ function Projects() {
           <li className='text-left'>It makes the user to feel more comfortable by ordering the food.</li>
          </ul>
         </div>
-      </div>
-      <div className='flex flex-col items-center justify-center p-[10px] my-[20px] w-[350px] border border-gray-200 rounded-lg shadow-md'>
+      </Link>
+      <Link to='https://github.com/MadhuVarshaP/Linkedin-clone' className='flex flex-col items-center justify-center p-[10px] my-[20px] w-[350px] border border-gray-200 rounded-lg shadow-md hover:shadow-xl'>
         <p className='text-[30px] font-bold pt-[10px]'>LinkedIn Clone</p>
-        <a href='https://github.com/MADHUthecoder/Linkedin-clone' className='pt-[10px]'>Github</a>
+        <a href='https://github.com/MadhuVarshaP/Linkedin-clone' className='pt-[10px]'>Github</a>
         <div className='flex flex-row space-x-3 pt-[10px]'>
           <button className='border border-gray-200 bg-gray-200 rounded-xl px-[10px]'>ReactJS</button> 
           <button className='border border-gray-200 bg-gray-200 rounded-xl px-[10px]'>TailwindCSS</button>
@@ -33,10 +34,10 @@ function Projects() {
           <li className='text-left'>Allows to search for and apply for jobs, get information about companies you're interested in, and much more.</li>
          </ul>
         </div>
-      </div>
-      <div className='flex flex-col items-center justify-center p-[10px] my-[20px] w-[350px] border border-gray-200 rounded-lg shadow-md'>
+      </Link>
+      <Link to='https://github.com/MadhuVarshaP/L4T' className='flex flex-col items-center justify-center p-[10px] my-[20px] w-[350px] border border-gray-200 rounded-lg shadow-md hover:shadow-xl'>
         <p className='text-[30px] font-bold pt-[10px]'>Learn4Tomorrow</p>
-        <a href='https://github.com/MADHUthecoder/L4T' className='pt-[10px]'>Github</a>
+        <a href='https://github.com/MadhuVarshaP/L4T' className='pt-[10px]'>Github</a>
         <div className='flex flex-row space-x-3 pt-[10px]'>
           <button className='border border-gray-200 bg-gray-200 rounded-xl px-[10px]'>ReactJS</button> 
           <button className='border border-gray-200 bg-gray-200 rounded-xl px-[10px]'>Bootstrap</button>
@@ -47,7 +48,7 @@ function Projects() {
           <li className='text-left'>It's a platform where freelancers can have a better profile.</li>
          </ul>
         </div>
-      </div>
+      </Link>
       </div>
     </div>
   )
